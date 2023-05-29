@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 100vw; /* Занимает всю ширину экрана */
+    height: 100vh; /* Занимает всю высоту экрана */
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+
+.logo-wrapper {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 100%; /* Исправлено значение максимальной ширины */
+    display: block; 
+}
+
+.banner img {
+    width: 100%;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 0; /* Убран отступ сверху */
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.telegram-block {
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.telegram-text {
+    color: white;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #1a119b;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px; /* Закругленные углы */
+}
+
+.unsubscribe {
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.unsubscribe-text {
+    color: rgba(72, 69, 69, 0.8);
+}
+
+
+
+
